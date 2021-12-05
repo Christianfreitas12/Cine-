@@ -12,6 +12,4 @@ export const Container = styled.div`
      font-weight: 400;
      height: 68px;
  }
-
-
 `

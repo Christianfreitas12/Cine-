@@ -5,25 +5,12 @@ import styled from 'styled-components';
 export const Container = styled.div`
 display: flex;
 flex-direction: column;
-/* justify-content: center; */
 align-items: center;
 
 background-image: url(${fundo});
 background-repeat: no-repeat;
 
 height: 100vh;
-.top{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- 
-    /* margin-top: -5em; */
-    padding: 4.5em;
-    img{
-        height: 6em;
-    }
-}
-
 .Des{
   color: rgba(225, 225, 225, 1);
   font-size: 60px;

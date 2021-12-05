@@ -1,13 +1,16 @@
 import {Container} from './styled.js'
-import Nome from '../../componentes/comun/Nome/index'
+import CabeBA from '../../componentes/comun/CabeBA'
+
+import { useNavigate } from 'react-router-dom'
+
 
 export default function Home(){
+
+    const navigate = useNavigate();
+
     return(
        <Container>
-        <div className='top'>
-            <div className='img'> <img src='/assets/images/image 13.svg' alt='' /> </div>   
-            <Nome />
-         </div>
+        <CabeBA />
          <div className='Des'>O que você quer fazer?</div>
          <div className='botao'><button>Comprar ingressos</button> </div>
         </Container>
