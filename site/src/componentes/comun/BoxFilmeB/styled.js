@@ -11,7 +11,7 @@ export const Container = styled.div`
 
     padding: 7px 0px;
 
-    margin: 10em;
+    /* margin: 10em; */
 .Espe{
     display: flex;
     flex-direction: column;

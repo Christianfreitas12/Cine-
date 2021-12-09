@@ -3,9 +3,12 @@ import styled from 'styled-components';
  import fundo from '../../assets/images/fundo.svg'
 
 export const Container = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+
 background-image: url(${fundo});
 background-repeat: no-repeat;
-/* background-size: cover; */
 
 height: 120vh;
 
@@ -23,19 +26,10 @@ height: 120vh;
     padding: .7em 0em 0em 4em;
 }
 
-.Boxs{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-    padding: 2em 8em 0em 8em;
-}
-
-.BoxHo{
-    display: flex;
-    flex-wrap: wrap;
-
-    width: 35em;
-    /* padding: ; */
-}
 `
+
+
+
+
+
+
